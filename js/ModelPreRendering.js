@@ -39,9 +39,9 @@ var isLoading = false;
 // url for different models and textures
 var modelUrl, textureUrl;
 // modelUrl init || buddha omt model
-modelUrl = 'model/angel/angel_origin.obj';
+modelUrl = 'Models/angel/angel_origin.obj';
 // textureUrl init || buddha normalmap
-textureUrl = 'textures/normalMap/normalMap_angel.png';
+textureUrl = 'Models/textures/normalMap/normalMap_angel.png';
 
 init();
 loadOMT();
