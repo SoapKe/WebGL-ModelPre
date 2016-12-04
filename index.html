@@ -9,8 +9,28 @@
 	<!-- MainPage css -->
 	<link rel="stylesheet" href="css/MainPage.css">
 </head>
-<body>		
-	<!-- Model Table -->
+<body>
+	<HR id="hr1" width="60%" color=#000000 SIZE=2>
+
+ 	<div class="button">
+		<a href="#" id="wireframe" onclick="changeRenderer();" style=" font-size:18px; font-weight:bold;" >Wireframe Render</a>
+		<br/>
+		<br/>
+		<a href="#" id="wireframe" onclick="changeWireframe();" style=" font-size:18px; font-weight:bold;" >Wireframe Modle</a>
+		<br/>
+		<br/>
+		<a href="#" id="saveLink" onclick="saveAsImage();" style=" font-size:18px; font-weight:bold;" >Export Render Image</a>
+		<br/>		
+	</div>
+
+	<div id='colorPicker'>
+		<p style=" font-size:18px; font-weight:bold; " >Select Color</p>
+		<input type="text" id="color" name="COLOR_PICKER" value="#8763ea">
+	</div>
+		
+	<HR id="hr2" width="60%" color=#000000 SIZE=2>
+
+		<!-- Model Table -->
 	<table class = "modelTable" id="modelTable" align="center">
 
 	<!-- row 1 header-->
@@ -601,23 +621,7 @@
 
 	</table>
 
- 	<div class="button">
-		<a href="#" id="wireframe" onclick="changeRenderer();" style=" font-size:18px; font-weight:bold;" >Wireframe Render</a>
-		<br/>
-		<br/>
-		<a href="#" id="wireframe" onclick="changeWireframe();" style=" font-size:18px; font-weight:bold;" >Wireframe Modle</a>
-		<br/>
-		<br/>
-		<a href="#" id="saveLink" onclick="saveAsImage();" style=" font-size:18px; font-weight:bold;" >Export Render Image</a>
-		<br/>		
-	</div>
-
-	<div id='colorPicker'>
-		<p style=" font-size:18px; font-weight:bold; " >Select Color</p>
-		<input type="text" id="color" name="COLOR_PICKER" value="#8763ea">
-	</div>
-		
-
+	
 	<!-- loading prompt -->
 	<div id="modelType">
 		<p id="type"></p>

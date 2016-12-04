@@ -15,7 +15,7 @@ table.modelTable
 
     position: absolute;
     z-index: 100;
-    top: 86%;
+    top: 104%;
     left: 25%;
 
     overflow: hidden;
@@ -80,12 +80,30 @@ table.modelTable td
     color: #000;
 }
 
+#hr1
+{
+    position: absolute;
+    z-index: 100;
+    left: 20%;
+    bottom: 13%;
+
+}
+
+#hr2
+{
+    position: absolute;
+    z-index: 100;
+    left: 20%;
+    top: 101%;
+
+}
+
 .button
 {
 
     position: absolute;
     z-index: 100;
-    right: 4.5%;
+    right: 32%;
     bottom: 1.5%;
 
     text-align: center;
@@ -100,7 +118,7 @@ table.modelTable td
     position: absolute;
     z-index: 100;
     bottom: 5px;
-    left: 4.5%;
+    left: 32%;
 
     text-align: center;
     /*display:block;*/
